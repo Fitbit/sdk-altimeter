@@ -1,4 +1,4 @@
-import { document } from "document";
+import document from "document";
 import { Barometer } from "barometer";
 
 console.log("Altimeter starting!");
