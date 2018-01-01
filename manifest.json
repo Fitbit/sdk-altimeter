@@ -1,0 +1,1 @@
+{"appManifestVersion":1,"main":"app/index.js","svgMain":"resources/index.gui","svgWidgets":"resources/widgets.gui","appType":"app","i18n":{"en":{"name":"Altimeter"}},"buildId":"0x0ab90f121979b2ad","uuid":"0cb04f31-513b-4afe-9bea-3c6eb955f583","name":"Altimeter","bundleDate":"2018-01-01T17:01:16.275Z","requestedPermissions":[],"wipeColor":"#03a9f4"}

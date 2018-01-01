@@ -4,16 +4,25 @@ svg {
 
 .large-value {
   font-family: Seville-Book;
-  font-size: 120;
+  font-size: 64;
   fill: fb-blue;
   width: 100%;
   text-anchor: middle;
+  text-length: 32;
+  
 }
 
 .small-value {
   font-family: Seville-Book;
-  font-size: 64;
+  font-size: 44;
   fill: fb-white;
   width: 100%;
+  text-anchor: middle;
+  text-length: 32;
+}
+
+.label {
+  font-family: System-Regular;
+  fill: white;
   text-anchor: middle;
 }

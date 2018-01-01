@@ -1,4 +1,6 @@
 <svg>
-  <text id="altitude" x="50%" y="180" class="large-value">altitude</text>
-  <text id="pressure" x="50%" y="230" class="small-value">pressure</text>
+  <text id="altitude-Label" x="50%" y="50" class="label">Pressure altitude</text>
+  <text id="altitude" x="50%" y="100" class="large-value">-</text>
+  <text id="pressure-label" x="50%" y="150" class="label">Pressure</text>
+  <text id="pressure" x="50%" y="200" class="small-value">-</text>
 </svg>
