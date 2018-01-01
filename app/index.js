@@ -14,7 +14,7 @@ altitudeLabel.text = "-";
 var bar = new Barometer();
 
 bar.onreading = function() {
-  altitudeLabel.text = altitudeFromPressure(bar.pressure / 100) + " ft";
+  altitudeLabel.text = Math.round(altitudeFromPressure(bar.pressure / 100)*100)/100 + " ft";
   pressureLabel.text = Math.round(bar.pressure / 100) + " hPa";
 }
 

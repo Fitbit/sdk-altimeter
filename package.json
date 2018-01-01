@@ -1,7 +1,15 @@
 {
   "fitbit": {
+    "appUUID": "0cb04f31-513b-4afe-9bea-3c6eb955f583",
     "appType": "app",
     "appDisplayName": "Altimeter",
-    "wipeColor": "#03a9f4"
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [],
+    "i18n": {
+      "en": {
+        "name": "Altimeter"
+      }
+    }
   }
 }
