@@ -8,14 +8,14 @@ var altitudeLabel = document.getElementById("altitude");
 var pressureLabel = document.getElementById("pressure");
 
 // Initialize the UI with some values
-altitudeLabel.innerText = "-";
+altitudeLabel.text = "-";
 
 // Create a new instance of the Barometer
 var bar = new Barometer();
 
 bar.onreading = function() {
-  altitudeLabel.innerText = altitudeFromPressure(bar.pressure / 100) + " ft";
-  pressureLabel.innerText = Math.round(bar.pressure / 100) + " hPa";
+  altitudeLabel.text = altitudeFromPressure(bar.pressure / 100) + " ft";
+  pressureLabel.text = Math.round(bar.pressure / 100) + " hPa";
 }
 
 // Begin monitoring the sensor
