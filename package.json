@@ -2,6 +2,17 @@
   "fitbit": {
     "appType": "app",
     "appDisplayName": "Altimeter",
-    "wipeColor": "#03a9f4"
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Altimeter"
+      }
+    }
   }
 }
