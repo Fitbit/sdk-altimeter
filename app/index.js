@@ -1,21 +1,21 @@
 import document from "document";
 import { Barometer } from "barometer";
 
-console.log("Altimeter starting!");
-
 // Fetch UI elements we will need to change
 var altitudeLabel = document.getElementById("altitude");
 var pressureLabel = document.getElementById("pressure");
 
 // Initialize the UI with some values
-altitudeLabel.innerText = "-";
+altitudeLabel.text = "--";
+pressureLabel.text = "--";
 
 // Create a new instance of the Barometer
 var bar = new Barometer();
 
-bar.onreading = function() {
-  altitudeLabel.innerText = altitudeFromPressure(bar.pressure / 100) + " ft";
-  pressureLabel.innerText = Math.round(bar.pressure / 100) + " hPa";
+// Update the lavel with each reading from the sensor
+bar.onreading = () => {
+  altitudeLabel.text = altitudeFromPressure(bar.pressure / 100) + " ft";
+  pressureLabel.text = Math.round(bar.pressure / 100) + " hPa";
 }
 
 // Begin monitoring the sensor
